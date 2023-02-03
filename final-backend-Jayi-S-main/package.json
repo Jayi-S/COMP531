@@ -1,0 +1,37 @@
+{
+  "name": "postapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "node.version": "v18.12.1",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha service/*.test.js --reporter mocha-junit-reporter --timeout 60000 --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "all": "^0.0.0",
+    "cloudinary": "^1.32.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "express-jwt": "^7.7.7",
+    "express-session": "^1.17.3",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mocha-junit-reporter": "^2.2.0",
+    "mongoose": "^6.7.2",
+    "mongoose-findorcreate": "^3.0.0",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth": "^2.0.0",
+    "request": "^2.88.2",
+    "should": "^13.2.3",
+    "supertest": "^6.3.1"
+  },
+  "type": "module"
+}
