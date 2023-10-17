@@ -1,8 +1,6 @@
 # This is final frontend-app
 ```
   "netid": "js215",
-  "frontend": "https://book2022f.surge.sh",
-  "backend": "https://yourbookserver2022.herokuapp.com"
 ```
 
 # setup Database
