@@ -1,0 +1,48 @@
+
+.loginContainer .loginBox {
+  width: 450px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 3px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.loginContainer .loginBox .headBox {
+  height: 130px;
+  width: 130px;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px #ddd;
+}
+.loginContainer .loginBox .headBox img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #eee;
+}
+.loginContainer .loginBox .loginInfo {
+  padding: 80px 20px 0 20px;
+  box-sizing: border-box;
+}
+.loginContainer .loginBox .loginInfo .btns {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.btnsBox{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    padding-top: 20px;
+}
+.submitBox{
+    margin-right: 20px;
+}
+

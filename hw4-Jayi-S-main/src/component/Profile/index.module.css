@@ -1,0 +1,30 @@
+.btnsBox{
+    display: flex;
+    justify-content:end;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.cardBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerBox{
+    display: inline-block;
+    padding-right: 20px;
+  }
+
+
+  .stateBtn{
+    line-height: 32px;
+    height: 32px;
+    margin-right: 20px;
+  }
+  .btn{
+    line-height: 32px;
+    height: 32px;
+    margin-left: 20px;
+  }
